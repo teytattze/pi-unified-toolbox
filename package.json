@@ -7,7 +7,8 @@
   "type": "module",
   "scripts": {
     "fmt": "bun run oxfmt",
-    "lint": "bun run oxlint"
+    "lint": "bun run oxlint",
+    "test": "bun test --randomize"
   },
   "dependencies": {
     "@earendil-works/pi-coding-agent": "0.75.5",

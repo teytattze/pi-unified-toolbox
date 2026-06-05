@@ -1,4 +1,4 @@
-import { defineStore } from "../define-store";
+import { defineStore } from "../utils";
 import { proxy } from "valtio/vanilla";
 import type { ExecutionModeKey } from "./types";
 
