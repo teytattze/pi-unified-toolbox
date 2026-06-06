@@ -1,6 +1,6 @@
-import { defineStore } from "../utils";
 import { proxy } from "valtio/vanilla";
-import type { ExecutionModeKey } from "./types";
+import type { ExecutionModeKey } from "../../definitions/execution-mode";
+import { defineStore } from "../utils";
 
 const state = proxy<{ current: ExecutionModeKey }>({
   current: "plan",
